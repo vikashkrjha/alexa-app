@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Develpr\\AlexaApp\\": "src"
+            "Vikash\\AlexaApp\\": "src"
         }
     },
     "autoload-dev": {
@@ -27,7 +27,7 @@
             "tests/"
         ],
         "psr-4": {
-            "Develpr\\Tests\\": "tests"
+            "Vikash\\Tests\\": "tests"
         }
     },
     "extra": {
@@ -36,11 +36,11 @@
         },
         "laravel": {
             "providers": [
-                "Develpr\\AlexaApp\\Provider\\LaravelServiceProvider"
+                "Vikash\\AlexaApp\\Provider\\LaravelServiceProvider"
             ],
             "aliases": {
-                "AlexaRoute": "Develpr\\AlexaApp\\Facades\\AlexaRouter",
-                "Alexa": "Develpr\\AlexaApp\\Facades\\Alexa"
+                "AlexaRoute": "Vikash\\AlexaApp\\Facades\\AlexaRouter",
+                "Alexa": "Vikash\\AlexaApp\\Facades\\Alexa"
             }
         }
     }
